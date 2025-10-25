@@ -9,8 +9,14 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/menu" element={<PlaceholderPage pageName="Menu" />} />
-        <Route path="/our-story" element={<PlaceholderPage pageName="Our Story" />} />
-        <Route path="/recipes" element={<PlaceholderPage pageName="Recipes" />} />
+        <Route
+          path="/our-story"
+          element={<PlaceholderPage pageName="Our Story" />}
+        />
+        <Route
+          path="/recipes"
+          element={<PlaceholderPage pageName="Recipes" />}
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

@@ -49,8 +49,8 @@ export default {
         },
       },
       fontFamily: {
-        gorditas: ['Gorditas', 'cursive'],
-        inter: ['Inter', '-apple-system', 'Roboto', 'Helvetica', 'sans-serif'],
+        gorditas: ["Gorditas", "cursive"],
+        inter: ["Inter", "-apple-system", "Roboto", "Helvetica", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
